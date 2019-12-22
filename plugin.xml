@@ -8,9 +8,6 @@
     <keywords>cordova,payment,apple pay</keywords>
     <repo>https://github.com/samkelleher/cordova-plugin-applepay</repo>
     	<preference name="MERCHANT1" default=""/>
-	<preference name="MERCHANT2" default=""/>
-	<preference name="MERCHANT3" default=""/>
-	<preference name="MERCHANT4" default=""/>
     <platform name="ios">
 
         <js-module src="www/applepay.js" name="payment">
@@ -31,18 +28,12 @@
 		  <config-file target="*-Debug.plist" parent="com.apple.developer.in-app-payments">
 			<array>
 			  	<string>$MERCHANT1</string>
-				<string>$MERCHANT2</string>
-				<string>$MERCHANT3</string>
-				<string>$MERCHANT4</string>
 			</array>
 		  </config-file>
 
 		  <config-file target="*-Release.plist" parent="com.apple.developer.in-app-payments">
 			<array>
 			   	<string>$MERCHANT1</string>
-				<string>$MERCHANT2</string>
-				<string>$MERCHANT3</string>
-				<string>$MERCHANT4</string>
 			</array>
 		  </config-file>
 		<!-- Adding Associated Domains -->	  

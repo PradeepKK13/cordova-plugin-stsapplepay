@@ -7,10 +7,10 @@
     <description>Implements Apple Pay.</description>
     <keywords>cordova,payment,apple pay</keywords>
     <repo>https://github.com/samkelleher/cordova-plugin-applepay</repo>
-    	<preference name="MERCHANT1" />
-	<preference name="MERCHANT2" />
-	<preference name="MERCHANT3" />
-	<preference name="MERCHANT4" />
+    	<preference name="MERCHANT1" default=""/>
+	<preference name="MERCHANT2" default=""/>
+	<preference name="MERCHANT3" default=""/>
+	<preference name="MERCHANT4" default=""/>
     <platform name="ios">
 
         <js-module src="www/applepay.js" name="payment">

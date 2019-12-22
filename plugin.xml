@@ -7,10 +7,10 @@
     <description>Implements Apple Pay.</description>
     <keywords>cordova,payment,apple pay</keywords>
     <repo>https://github.com/samkelleher/cordova-plugin-applepay</repo>
-    <preference name="MERCHANT1" />
+    	<preference name="MERCHANT1" />
 	<preference name="MERCHANT2" />
 	<preference name="MERCHANT3" />
-	
+	<preference name="MERCHANT4" />
     <platform name="ios">
 
         <js-module src="www/applepay.js" name="payment">
@@ -30,21 +30,23 @@
 			<!-- apple pay compatibility -->
 		  <config-file target="*-Debug.plist" parent="com.apple.developer.in-app-payments">
 			<array>
-			  <string>$MERCHANT1</string>
+			  	<string>$MERCHANT1</string>
 				<string>$MERCHANT2</string>
 				<string>$MERCHANT3</string>
+				<string>$MERCHANT4</string>
 			</array>
 		  </config-file>
 
 		  <config-file target="*-Release.plist" parent="com.apple.developer.in-app-payments">
 			<array>
-			   <string>$MERCHANT1</string>
+			   	<string>$MERCHANT1</string>
 				<string>$MERCHANT2</string>
 				<string>$MERCHANT3</string>
+				<string>$MERCHANT4</string>
 			</array>
 		  </config-file>
 		<!-- Adding Associated Domains -->	  
-	  		  <config-file target="*-Debug.plist" parent="com.apple.developer.associated-domains">
+	  	<!--	  <config-file target="*-Debug.plist" parent="com.apple.developer.associated-domains">
 			<array>
 			  <string>webcredentials:digital.enterprisetouch.com</string>
 			</array>
@@ -54,16 +56,16 @@
 			<array>
 			  	<string>webcredentials:digital.enterprisetouch.com</string>
 			</array>
-		  </config-file>
+		  </config-file>-->
 		  
 		  <!-- Adding autofill-credential-provider -->	  
-	  	   <config-file target="*-Debug.plist" parent="com.apple.developer.authentication-services.autofill-credential-provider">
+	  	  <!--   <config-file target="*-Debug.plist" parent="com.apple.developer.authentication-services.autofill-credential-provider">
 			  		<true/>
 		  </config-file>
 
 		  <config-file target="*-Release.plist" parent="com.apple.developer.authentication-services.autofill-credential-provider">
 			   	<true/>
-		  </config-file>
+		  </config-file>-->
 		  
 	
     </platform>

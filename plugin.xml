@@ -8,6 +8,52 @@
     <keywords>cordova,payment,apple pay</keywords>
     <repo>https://github.com/samkelleher/cordova-plugin-applepay</repo>
     	<preference name="MERCHANT1" default=""/>
+	<preference name="MERCHANT2" default=""/>
+	<preference name="MERCHANT3" default=""/>
+	<preference name="MERCHANT4" default=""/>
+	<preference name="MERCHANT5" default=""/>
+	<preference name="MERCHANT6" default=""/>
+	<preference name="MERCHANT7" default=""/>
+	<preference name="MERCHANT8" default=""/>
+	<preference name="MERCHANT9" default=""/>
+	<preference name="MERCHANT10" default=""/>
+	<preference name="MERCHANT11" default=""/>
+	<preference name="MERCHANT12" default=""/>
+	<preference name="MERCHANT13" default=""/>
+	<preference name="MERCHANT14" default=""/>
+	<preference name="MERCHANT15" default=""/>
+	<preference name="MERCHANT16" default=""/>
+	<preference name="MERCHANT17" default=""/>
+	<preference name="MERCHANT18" default=""/>
+	<preference name="MERCHANT19" default=""/>
+	<preference name="MERCHANT20" default=""/>
+	<preference name="MERCHANT21" default=""/>
+	<preference name="MERCHANT22" default=""/>
+	<preference name="MERCHANT23" default=""/>
+	<preference name="MERCHANT24" default=""/>
+	<preference name="MERCHANT25" default=""/>
+	<preference name="MERCHANT26" default=""/>
+	<preference name="MERCHANT27" default=""/>
+	<preference name="MERCHANT28" default=""/>
+	<preference name="MERCHANT29" default=""/>
+	<preference name="MERCHANT30" default=""/>
+	<preference name="MERCHANT31" default=""/>
+	<preference name="MERCHANT32" default=""/>
+	<preference name="MERCHANT33" default=""/>
+	<preference name="MERCHANT34" default=""/>
+	<preference name="MERCHANT35" default=""/>
+	<preference name="MERCHANT36" default=""/>
+	<preference name="MERCHANT37" default=""/>
+	<preference name="MERCHANT38" default=""/>
+	<preference name="MERCHANT39" default=""/>
+	<preference name="MERCHANT40" default=""/>
+	<preference name="MERCHANT41" default=""/>
+	<preference name="MERCHANT42" default=""/>
+	<preference name="MERCHANT43" default=""/>
+	<preference name="MERCHANT44" default=""/>
+	<preference name="MERCHANT45" default=""/>
+	<preference name="MERCHANT46" default=""/>
+	<preference name="MERCHANT47" default=""/>
     <platform name="ios">
 
         <js-module src="www/applepay.js" name="payment">
@@ -28,12 +74,104 @@
 		  <config-file target="*-Debug.plist" parent="com.apple.developer.in-app-payments">
 			<array>
 			  	<string>$MERCHANT1</string>
+				<string>$MERCHANT2</string>
+				<string>$MERCHANT3</string>
+				<string>$MERCHANT4</string>
+				<string>$MERCHANT5</string>
+				<string>$MERCHANT6</string>
+				<string>$MERCHANT7</string>
+				<string>$MERCHANT8</string>
+				<string>$MERCHANT9</string>
+				<string>$MERCHANT10</string>
+				<string>$MERCHANT11</string>
+				<string>$MERCHANT12</string>
+				<string>$MERCHANT13</string>
+				<string>$MERCHANT14</string>
+				<string>$MERCHANT15</string>
+				<string>$MERCHANT16</string>
+				<string>$MERCHANT17</string>
+				<string>$MERCHANT18</string>
+				<string>$MERCHANT19</string>
+				<string>$MERCHANT20</string>
+				<string>$MERCHANT21</string>
+				<string>$MERCHANT22</string>
+				<string>$MERCHANT23</string>
+				<string>$MERCHANT24</string>
+				<string>$MERCHANT25</string>
+				<string>$MERCHANT26</string>
+				<string>$MERCHANT27</string>
+				<string>$MERCHANT28</string>
+				<string>$MERCHANT29</string>
+				<string>$MERCHANT30</string>
+				<string>$MERCHANT31</string>
+				<string>$MERCHANT32</string>
+				<string>$MERCHANT33</string>
+				<string>$MERCHANT34</string>
+				<string>$MERCHANT35</string>
+				<string>$MERCHANT36</string>
+				<string>$MERCHANT37</string>
+				<string>$MERCHANT38</string>
+				<string>$MERCHANT39</string>
+				<string>$MERCHANT40</string>
+				<string>$MERCHANT41</string>
+				<string>$MERCHANT42</string>
+				<string>$MERCHANT43</string>
+				<string>$MERCHANT44</string>
+				<string>$MERCHANT45</string>
+				<string>$MERCHANT46</string>
+				<string>$MERCHANT47</string>
 			</array>
 		  </config-file>
 
 		  <config-file target="*-Release.plist" parent="com.apple.developer.in-app-payments">
 			<array>
 			   	<string>$MERCHANT1</string>
+				<string>$MERCHANT2</string>
+				<string>$MERCHANT3</string>
+				<string>$MERCHANT4</string>
+				<string>$MERCHANT5</string>
+				<string>$MERCHANT6</string>
+				<string>$MERCHANT7</string>
+				<string>$MERCHANT8</string>
+				<string>$MERCHANT9</string>
+				<string>$MERCHANT10</string>
+				<string>$MERCHANT11</string>
+				<string>$MERCHANT12</string>
+				<string>$MERCHANT13</string>
+				<string>$MERCHANT14</string>
+				<string>$MERCHANT15</string>
+				<string>$MERCHANT16</string>
+				<string>$MERCHANT17</string>
+				<string>$MERCHANT18</string>
+				<string>$MERCHANT19</string>
+				<string>$MERCHANT20</string>
+				<string>$MERCHANT21</string>
+				<string>$MERCHANT22</string>
+				<string>$MERCHANT23</string>
+				<string>$MERCHANT24</string>
+				<string>$MERCHANT25</string>
+				<string>$MERCHANT26</string>
+				<string>$MERCHANT27</string>
+				<string>$MERCHANT28</string>
+				<string>$MERCHANT29</string>
+				<string>$MERCHANT30</string>
+				<string>$MERCHANT31</string>
+				<string>$MERCHANT32</string>
+				<string>$MERCHANT33</string>
+				<string>$MERCHANT34</string>
+				<string>$MERCHANT35</string>
+				<string>$MERCHANT36</string>
+				<string>$MERCHANT37</string>
+				<string>$MERCHANT38</string>
+				<string>$MERCHANT39</string>
+				<string>$MERCHANT40</string>
+				<string>$MERCHANT41</string>
+				<string>$MERCHANT42</string>
+				<string>$MERCHANT43</string>
+				<string>$MERCHANT44</string>
+				<string>$MERCHANT45</string>
+				<string>$MERCHANT46</string>
+				<string>$MERCHANT47</string>
 			</array>
 		  </config-file>
 		<!-- Adding Associated Domains -->	  

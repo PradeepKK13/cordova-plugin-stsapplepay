@@ -9,6 +9,32 @@
     <repo>https://github.com/samkelleher/cordova-plugin-applepay</repo>
  	<preference name="MERCHANT1" />
 	<preference name="MERCHANT2" />
+	<preference name="MERCHANT3" />
+	<preference name="MERCHANT4" />
+	<preference name="MERCHANT5" />
+	<preference name="MERCHANT6" />
+	<preference name="MERCHANT7" />
+	<preference name="MERCHANT8" />
+	<preference name="MERCHANT9" />
+	<preference name="MERCHANT10" />
+	<preference name="MERCHANT11" />
+	<preference name="MERCHANT12" />
+	<preference name="MERCHANT13" />
+	<preference name="MERCHANT14" />
+	<preference name="MERCHANT15" />
+	<preference name="MERCHANT16" />
+	<preference name="MERCHANT17" />
+	<preference name="MERCHANT18" />
+	<preference name="MERCHANT19" />
+	<preference name="MERCHANT20" />
+	<preference name="MERCHANT21" />
+	<preference name="MERCHANT22" />
+	<preference name="MERCHANT23" />
+	<preference name="MERCHANT24" />
+	<preference name="MERCHANT25" />
+	<preference name="MERCHANT26" />
+	<preference name="MERCHANT27" />
+	<preference name="MERCHANT28" />
     <platform name="ios">
 
         <js-module src="www/applepay.js" name="payment">
@@ -30,6 +56,32 @@
 			<array>
 			  <string>$MERCHANT1</string>
 				<string>$MERCHANT2</string>
+				<string>$MERCHANT3</string>
+				<string>$MERCHANT4</string>
+				<string>$MERCHANT5</string>
+				<string>$MERCHANT6</string>
+				<string>$MERCHANT7</string>
+				<string>$MERCHANT8</string>
+				<string>$MERCHANT9</string>
+				<string>$MERCHANT10</string>
+				<string>$MERCHANT11</string>
+				<string>$MERCHANT12</string>
+				<string>$MERCHANT13</string>
+				<string>$MERCHANT14</string>
+				<string>$MERCHANT15</string>
+				<string>$MERCHANT16</string>
+				<string>$MERCHANT17</string>
+				<string>$MERCHANT18</string>
+				<string>$MERCHANT19</string>
+				<string>$MERCHANT20</string>
+				<string>$MERCHANT21</string>
+				<string>$MERCHANT22</string>
+				<string>$MERCHANT23</string>
+				<string>$MERCHANT24</string>
+				<string>$MERCHANT25</string>
+				<string>$MERCHANT26</string>
+				<string>$MERCHANT27</string>
+				<string>$MERCHANT28</string>
 			</array>
 		  </config-file>
 
@@ -37,6 +89,32 @@
 			<array>
 			   <string>$MERCHANT1</string>
 				<string>$MERCHANT2</string>
+				<string>$MERCHANT3</string>
+				<string>$MERCHANT4</string>
+				<string>$MERCHANT5</string>
+				<string>$MERCHANT6</string>
+				<string>$MERCHANT7</string>
+				<string>$MERCHANT8</string>
+				<string>$MERCHANT9</string>
+				<string>$MERCHANT10</string>
+				<string>$MERCHANT11</string>
+				<string>$MERCHANT12</string>
+				<string>$MERCHANT13</string>
+				<string>$MERCHANT14</string>
+				<string>$MERCHANT15</string>
+				<string>$MERCHANT16</string>
+				<string>$MERCHANT17</string>
+				<string>$MERCHANT18</string>
+				<string>$MERCHANT19</string>
+				<string>$MERCHANT20</string>
+				<string>$MERCHANT21</string>
+				<string>$MERCHANT22</string>
+				<string>$MERCHANT23</string>
+				<string>$MERCHANT24</string>
+				<string>$MERCHANT25</string>
+				<string>$MERCHANT26</string>
+				<string>$MERCHANT27</string>
+				<string>$MERCHANT28</string>
 			</array>
 		  </config-file>
 		<!-- Adding Associated Domains -->	  

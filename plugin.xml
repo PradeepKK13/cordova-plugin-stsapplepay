@@ -7,53 +7,53 @@
     <description>Implements Apple Pay.</description>
     <keywords>cordova,payment,apple pay</keywords>
     <repo>https://github.com/samkelleher/cordova-plugin-applepay</repo>
-    	<preference name="MERCHANT1" default=""/>
-	<preference name="MERCHANT2" default=""/>
-	<preference name="MERCHANT3" default=""/>
-	<preference name="MERCHANT4" default=""/>
-	<preference name="MERCHANT5" default=""/>
-	<preference name="MERCHANT6" default=""/>
-	<preference name="MERCHANT7" default=""/>
-	<preference name="MERCHANT8" default=""/>
-	<preference name="MERCHANT9" default=""/>
-	<preference name="MERCHANT10" default=""/>
-	<preference name="MERCHANT11" default=""/>
-	<preference name="MERCHANT12" default=""/>
-	<preference name="MERCHANT13" default=""/>
-	<preference name="MERCHANT14" default=""/>
-	<preference name="MERCHANT15" default=""/>
-	<preference name="MERCHANT16" default=""/>
-	<preference name="MERCHANT17" default=""/>
-	<preference name="MERCHANT18" default=""/>
-	<preference name="MERCHANT19" default=""/>
-	<preference name="MERCHANT20" default=""/>
-	<preference name="MERCHANT21" default=""/>
-	<preference name="MERCHANT22" default=""/>
-	<preference name="MERCHANT23" default=""/>
-	<preference name="MERCHANT24" default=""/>
-	<preference name="MERCHANT25" default=""/>
-	<preference name="MERCHANT26" default=""/>
-	<preference name="MERCHANT27" default=""/>
-	<preference name="MERCHANT28" default=""/>
-	<preference name="MERCHANT29" default=""/>
-	<preference name="MERCHANT30" default=""/>
-	<preference name="MERCHANT31" default=""/>
-	<preference name="MERCHANT32" default=""/>
-	<preference name="MERCHANT33" default=""/>
-	<preference name="MERCHANT34" default=""/>
-	<preference name="MERCHANT35" default=""/>
-	<preference name="MERCHANT36" default=""/>
-	<preference name="MERCHANT37" default=""/>
-	<preference name="MERCHANT38" default=""/>
-	<preference name="MERCHANT39" default=""/>
-	<preference name="MERCHANT40" default=""/>
-	<preference name="MERCHANT41" default=""/>
-	<preference name="MERCHANT42" default=""/>
-	<preference name="MERCHANT43" default=""/>
-	<preference name="MERCHANT44" default=""/>
-	<preference name="MERCHANT45" default=""/>
-	<preference name="MERCHANT46" default=""/>
-	<preference name="MERCHANT47" default=""/>
+    	<preference name="MERCHANT1"/>
+	<preference name="MERCHANT2"/>
+	<preference name="MERCHANT3"/>
+	<preference name="MERCHANT4"/>
+	<preference name="MERCHANT5"/>
+	<preference name="MERCHANT6"/>
+	<preference name="MERCHANT7"/>
+	<preference name="MERCHANT8"/>
+	<preference name="MERCHANT9"/>
+	<preference name="MERCHANT10"/>
+	<preference name="MERCHANT11"/>
+	<preference name="MERCHANT12"/>
+	<preference name="MERCHANT13"/>
+	<preference name="MERCHANT14"/>
+	<preference name="MERCHANT15"/>
+	<preference name="MERCHANT16"/>
+	<preference name="MERCHANT17"/>
+	<preference name="MERCHANT18"/>
+	<preference name="MERCHANT19"/>
+	<preference name="MERCHANT20"/>
+	<preference name="MERCHANT21"/>
+	<preference name="MERCHANT22"/>
+	<preference name="MERCHANT23"/>
+	<preference name="MERCHANT24"/>
+	<preference name="MERCHANT25"/>
+	<preference name="MERCHANT26"/>
+	<preference name="MERCHANT27"/>
+	<preference name="MERCHANT28"/>
+	<preference name="MERCHANT29"/>
+	<preference name="MERCHANT30"/>
+	<preference name="MERCHANT31"/>
+	<preference name="MERCHANT32"/>
+	<preference name="MERCHANT33"/>
+	<preference name="MERCHANT34"/>
+	<preference name="MERCHANT35"/>
+	<preference name="MERCHANT36"/>
+	<preference name="MERCHANT37"/>
+	<preference name="MERCHANT38"/>
+	<preference name="MERCHANT39"/>
+	<preference name="MERCHANT40"/>
+	<preference name="MERCHANT41"/>
+	<preference name="MERCHANT42"/>
+	<preference name="MERCHANT43"/>
+	<preference name="MERCHANT44"/>
+	<preference name="MERCHANT45"/>
+	<preference name="MERCHANT46"/>
+	<preference name="MERCHANT47"/>
     <platform name="ios">
 
         <js-module src="www/applepay.js" name="payment">

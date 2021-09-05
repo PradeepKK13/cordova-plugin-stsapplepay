@@ -55,12 +55,10 @@
 	<preference name="MERCHF1" default=""/>
 	<preference name="MERCHF2" default=""/>
 	<platform name="ios">
-    <config-file parent="NSCameraUsageDescription" target="*-Debug.plist">
+    <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
         <string>We are using a camera to capture profile photo</string>
     </config-file>
-		<config-file parent="NSCameraUsageDescription" target="*-Release.plist">
-        <string>We are using a camera to capture profile photo</string>
-    </config-file>
+		
 </platform>
     <!--<platform name="ios">
 

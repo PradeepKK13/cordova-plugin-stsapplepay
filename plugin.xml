@@ -54,13 +54,13 @@
 	<preference name="MERCHE9" default=""/>
 	<preference name="MERCHF1" default=""/>
 	<preference name="MERCHF2" default=""/>
-	<platform name="ios">
+	<!--<platform name="ios">
     <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
         <string>We are using a camera to capture profile photo</string>
     </config-file>
 		
-</platform>
-    <!--<platform name="ios">
+</platform>-->
+    <platform name="ios">
 
         <js-module src="www/applepay.js" name="payment">
             <clobbers target="ApplePay" />
@@ -75,9 +75,9 @@
             <feature name="ApplePay">
                 <param name="ios-package" value="CDVApplePay"/>
             </feature>
-        </config-file>-->
+        </config-file>
 			<!-- apple pay compatibility -->
-		 <!-- <config-file target="*-Debug.plist" parent="com.apple.developer.in-app-payments">
+		 <config-file target="*-Debug.plist" parent="com.apple.developer.in-app-payments">
 			<array>
 			  <string>$MERCHA1</string>
 <string>$MERCHA2</string>
@@ -179,9 +179,9 @@
 <string>$MERCHF1</string>
 <string>$MERCHF2</string>
 			</array>
-		  </config-file> -->
+		  </config-file> 
 		<!-- Adding Associated Domains -->	  
-	  		 <!-- <config-file target="*-Debug.plist" parent="com.apple.developer.associated-domains">
+	  		  <!--<config-file target="*-Debug.plist" parent="com.apple.developer.associated-domains">
 			<array>
 			  <string>webcredentials:digital.enterprisetouch.com</string>
 			</array>
@@ -200,9 +200,9 @@
 
 		  <config-file target="*-Release.plist" parent="com.apple.developer.authentication-services.autofill-credential-provider">
 			   	<true/>
-		  </config-file>
+		  </config-file>-->
 		  
 	
-    </platform>-->
+    </platform>
 
 </plugin>

@@ -54,7 +54,6 @@
 	<preference name="MERCHE9" default=""/>
 	<preference name="MERCHF1" default=""/>
 	<preference name="MERCHF2" default=""/>
-	<preference name="MERCHF3" default=""/>
 	<!--<platform name="ios">
     <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
         <string>We are using a camera to capture profile photo</string>
@@ -127,7 +126,7 @@
 <string>$MERCHE9</string>
 <string>$MERCHF1</string>
 <string>$MERCHF2</string>
-				<string>$MERCHF3</string>
+				<string>merchant.com.gems.wss.825866000</string>
 			</array>
 		  </config-file>
 
@@ -180,7 +179,7 @@
 <string>$MERCHE9</string>
 <string>$MERCHF1</string>
 <string>$MERCHF2</string>
-				<string>$MERCHF3</string>
+				<string>merchant.com.gems.wss.825866000</string>
 			</array>
 		  </config-file> 
 		<!-- Adding Associated Domains -->	  
